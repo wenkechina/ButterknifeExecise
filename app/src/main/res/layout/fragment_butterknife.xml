@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:love="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/button"
+        android:textAllCaps="false"
+        android:text="验证butterknife是否有效"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/buttonf"
+        android:text="ButterKnife.findById"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="这里是butterknife在Fragment里的使用demo"
+        android:id="@+id/text"
+        android:layout_height="wrap_content"/>
+    <wenke.makelove.butterknifeexecise.BestImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/imagef"
+        android:src="@mipmap/ic_launcher"
+        love:percentage="1.5"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
